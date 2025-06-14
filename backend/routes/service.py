@@ -1,6 +1,6 @@
 from flask import Blueprint, request, jsonify
-from src.models.user import db, Service, Provider
-from src.routes.user import token_required
+from models.user import db, Service, Provider
+from routes.user import token_required
 
 service_bp = Blueprint('service', __name__)
 
