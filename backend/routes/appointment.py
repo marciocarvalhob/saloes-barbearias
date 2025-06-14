@@ -1,6 +1,6 @@
 from flask import Blueprint, request, jsonify
-from src.models.user import db, Appointment, Service, Provider, User
-from src.routes.user import token_required
+from models.user import db, Appointment, Service, Provider, User
+from routes.user import token_required
 from datetime import datetime, timedelta
 
 appointment_bp = Blueprint('appointment', __name__)
