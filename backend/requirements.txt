@@ -1,0 +1,7 @@
+Flask
+SQLAlchemy
+psycopg2-binary # Adaptador para PostgreSQL
+gunicorn        # Servidor de aplicação Python
+# Se a autenticação JWT foi implementada, adicione:
+PyJWT
+Flask-CORS # Se for para permitir requisições do frontend
